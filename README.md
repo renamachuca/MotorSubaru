@@ -2,22 +2,46 @@
 Subaru's Motor
 Subaru's Motor es un proyecto que utiliza una arquitectura de microservicios para gestionar productos y pedidos.
 Estructura del Proyecto
-Copysubaru's motor/
-├── products/
+
+
+
+MotorSubaru/
+│
+├── orders/                         
 │   ├── app/
-│   │   ├── __init__.py
-│   │   ├── models.py
-│   │   ├── routes.py
-│   ├── Dockerfile
-│   ├── requirements.txt
-├── orders/
+│   │   ├── __init__.py            
+│   │   ├── models.py                
+│   │   ├── routes.py                
+│   │   ├── config.py               
+│   │   └── wsgi.py                 
+│   └── tests/                     
+│
+├── products/                      
 │   ├── app/
-│   │   ├── __init__.py
-│   │   ├── models.py
-│   │   ├── routes.py
-│   ├── Dockerfile
-│   ├── requirements.txt
-├── docker-compose.yml
+│   │   ├── __init__.py             
+│   │   ├── models.py                
+│   │   ├── routes.py               
+│   │   ├── config.py            
+│   │   └── wsgi.py                 
+│   └── tests/                      
+│
+├── config/                         
+│   ├── database.py                 
+│   └── settings.py              
+│
+├── docs/                            
+│
+├── venv/                           
+│
+├── requirements.txt               
+│
+├── README.md                      
+│
+└── .gitignore                      
+
+
+
+
 Descripción de los Componentes
 Servicio de Productos
 

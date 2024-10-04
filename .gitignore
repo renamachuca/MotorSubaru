@@ -14,4 +14,4 @@ __pycache__/
 *.log
 
 # Ignorar archivos de entorno
-.env
+.venv
